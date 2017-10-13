@@ -16,13 +16,13 @@ function submitIt() {
   });
 }
 
-function pressIt() {}
-
-$(document).on('keydown', function() {
-  if(key.which === 71) {
-    alert('shit was pressed');
-  }
-});
+function pressIt() {
+  $(document).on('keydown', function() {
+    if(key.which === 71) {
+      alert('shit was pressed');
+    }
+  });
+}
 
 $(document).ready(function(){
 
