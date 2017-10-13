@@ -4,7 +4,11 @@ function getIt() {
   });
 }
 
-function frameIt() {}
+function frameIt() {
+  $('').on("", function() {
+    
+  });
+}
 
 function submitIt() {}
 
